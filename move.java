@@ -8,6 +8,7 @@ class move
             {
                 System.out.println(".");
                 Thread.sleep(500);
+                System.out.print("\033[2J \033[?25l");
             }
         }
         catch(Exception e)
